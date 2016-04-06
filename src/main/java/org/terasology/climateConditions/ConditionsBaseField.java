@@ -17,11 +17,11 @@ package org.terasology.climateConditions;
 
 import com.google.common.base.Function;
 import org.terasology.math.TeraMath;
-import org.terasology.utilities.procedural.Noise2D;
+import org.terasology.utilities.procedural.Noise;
 import org.terasology.utilities.procedural.SimplexNoise;
 
 public class ConditionsBaseField {
-    private Noise2D noiseTable;
+    private Noise noiseTable;
     private int seaLevel;
     private int maxLevel;
     private float noiseMultiplier;
