@@ -6,6 +6,10 @@
     "description" : "Module that introduces humidity and temperature fields and their modifiers",
     "dependencies" : [
             {
+                "id" : "Calendar",
+                "minVersion" : "0.0.1"
+            },
+            {
                 "id" : "Core",
                 "minVersion" : "1.0.0"
             }],
